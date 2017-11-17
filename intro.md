@@ -1,3 +1,3 @@
 # Welcome to my first playground on Tech.io
 
-Nous allons donc voir à quoi sert abstract factory
+Bonjour à tous, ce playground a pour but de vous apprendre et de comprendre le pattern Abstract Factory.
