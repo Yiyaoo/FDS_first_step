@@ -1,4 +1,4 @@
-# Bienvenue sur cette présentation du design pattern Abstract Factory
+# Bienvenue
 
 Bonjour à tous, ce playground a pour but de vous apprendre et de comprendre le pattern Abstract Factory.
 
