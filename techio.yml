@@ -1,4 +1,4 @@
-title: Simple Java Template
+title: Présentation du Design Pattern Abstract Factory
 plan:
-- title: Java Snippet
-  statement: statement.md
+- title: Introduction
+  statement: intro.md
