@@ -1,4 +1,4 @@
-Dans notre exemple, on va essayer de faire un système pour créer des voitures de plusieurs familles différentes(Sport, Business...) pour différentes sociétés.
+Dans notre exemple, on va essayer de faire un système pour créer des voitures de plusieurs familles différentes (Sport, Business...) pour différentes sociétés.
 
 # Etape 1
 
@@ -56,7 +56,9 @@ public class businessCar implements car{
 
 # Etape 4
 
-Abstract Factory Pattern est basé sur le Factory Method Pattern,mais qui va jouer en deux ou plusiers classe ou objets, donc dans cet exemple, dans le car factory, on a maintenant deux type de voitures, il a aussi une classe concrète SportCarFactory, qui implémente le CarFactory et les méthodes dedans.
+Abstract Factory Pattern est basé sur le Pattern Factory Method, mais qui va jouer en deux ou plusiers classe ou objets.
+Donc dans cet exemple, dans le car factory, on a maintenant deux type de voitures.
+La classe concrète SportCarFactory, elle, implémente les méthodes dedans de CarFactory.
 
 ![Image Etape 4](https://img4.hostingpics.net/pics/976063820.png)
 
