@@ -15,8 +15,10 @@ Dans le cas de notre design pattern Abstract Factory, il appartient à la famill
 
 ---
 
-Pour comprendre le pattern d'Abstract Factory, il faut d'abord comprendre ce qu'est une "Factory" que l'on traduit bien entendu en français par fabrique.
+Pour comprendre le pattern d'Abstract Factory, il faut d'abord comprendre ce qu'est une "Factory" que l'on traduit bien entendu en français par "Fabrique".
 
 # Une fabrique dites-vous?
 
-Le concept de base d'une 
+Ce qu'on appelle fabrique est en fait un autre design pattern de création appelé Factory Method.
+
+Son principe est simple: créer une classe qui sera dédier à la construction 
