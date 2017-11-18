@@ -50,17 +50,92 @@ public class businessCar implements car{
 
 ![Image Etape 4](https://img4.hostingpics.net/pics/976063820.png)
 
+CarFactory.java
+```java
+public interface CarFactory {
+	public BenzCar getBenzCar();
+    public TeslaCar getTeslaCar();
+}
+```
+SportCarFactory.java
+```java
+public class SportCarFactory implements CarFactory {
+    public BenzCar getBenzCar() {
+        return new BenzSportCar();
+    }
+
+    public TeslaCar getTeslaCar() {
+        return new TeslaSportCar();
+    }
+}
+```
 # Etape 5
 
 ![Image Etape 5](https://img4.hostingpics.net/pics/787834811.png)
 
+BenzCar.java
+```java
+public interface BenzCar {
+	public void gasUp();
+}
+```
+TeslaCar.java
+```java
+public interface TeslaCar {
+	public void charge();
+}
+```
 # Etape 6
 
 ![Image Etape 6](https://img4.hostingpics.net/pics/154823682.png)
 
+BenzSportCar.java
+```java
+public class BenzSportCar implements BenzCar{
+	public void gasUp() {
+        System.out.println("gas for sport !");
+    }
+}
+```
+TeslaSportCar.java
+```java
+public class TeslaSportCar implements TeslaCar {
+    public void charge() {
+        System.out.println("electricity for sport !");
+    }
+}
+```
 # Etape 7
 
 ![Image Etape 7](https://img4.hostingpics.net/pics/372427443.png)
 
+BenzBusinessCar.java
+```java
+public class BenzBusinessCar implements BenzCar{
+	public void gasUp() {
+        System.out.println("gas for business");
+    }
+}
+```
+TeslaBusinessCar.java
+```java
+public class TeslaBusinessCar implements TeslaCar {
+    public void charge() {
+        System.out.println("electricity for business ! ");
+    }
+}
+```
+BusinessCarFactory.java
+```java
+public class BusinessCarFactory implements CarFactory {
+    public BenzCar getBenzCar() {
+        return new BenzBusinessCar();
+    }
+
+    public TeslaCar getTeslaCar() {
+        return new TeslaBusinessCar();
+    }
+}
+```
 # Quizz
 
