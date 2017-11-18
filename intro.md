@@ -44,13 +44,12 @@ Le motif de conception fabrique abstraite peut être interprété et mis en oeuv
 
 ![Fabrique Abstraite](https://img4.hostingpics.net/pics/712545dp006.png)
 
-Les classes misent en oeuvre sont :
+Les classes que l'ont utilise ici sont :
 
- - IProduitFactory : interface pour les fabriques de création d'objets. Elle définit donc les méthodes nécessaires à la création des objets
+ - IProduitFactory : interface pour les fabriques de création d'objets. Elle définit les méthodes nécessaires à la création des objets
  - ProduitFactory1 et ProduitFactory2 : fabriques qui réalisent la création des objets
- - ProduitA et ProduitB : interfaces des deux familles de produits (En Java, cela peut être une classe abstraite ou une interface)
- - ProduitA1, ProduitA2, ProduitB1 et ProduitB2 : implémentations des produits des deux familles
- - Client : classe qui utilise la fabrique pour obtenir des objets
+ - ProduitA et ProduitB : interfaces des deux familles de produits 
+ - ProduitA1, ProduitA2, ProduitB1 et ProduitB2 : classes ou les deux produits des deux familles sont implémentées
 
 
 
