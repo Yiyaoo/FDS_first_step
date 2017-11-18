@@ -22,3 +22,5 @@ Pour comprendre le pattern d'Abstract Factory, il faut d'abord comprendre ce qu'
 Ce qu'on appelle fabrique est en fait un autre design pattern de création appelé Factory Method.
 
 Son principe est simple: créer une classe qui sera dédier à la construction 
+
+![Fabrique](https://img4.hostingpics.net/pics/275278Designpatternfabrique.png)
