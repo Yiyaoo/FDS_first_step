@@ -1,6 +1,6 @@
 # Etape 1
 
-!(https://www.hostingpics.net/viewer.php?id=226982237183495200081683688521437108332n.png)
+![Alt text](https://www.hostingpics.net/viewer.php?id=226982237183495200081683688521437108332n.png)
 
 # Etape 2
 
