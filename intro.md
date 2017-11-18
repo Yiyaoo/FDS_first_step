@@ -15,7 +15,7 @@ Dans le cas de notre design pattern Abstract Factory, il appartient à la famill
 
 ---
 
-Pour comprendre le pattern d'Abstract Factory, il faut d'abord comprendre ce qu'est une "Factory" que l'on traduit bien entendu en français par "Fabrique".
+Pour comprendre le pattern d'Abstract Factory, il faut d'abord comprendre ce qu'est une "Factory" que l'on traduit en français par "Fabrique".
 
 # Une fabrique dites-vous?
 
@@ -24,3 +24,8 @@ Ce qu'on appelle fabrique est en fait un autre design pattern de création appel
 Son principe est simple: créer une classe qui sera dédier à la construction 
 
 ![Fabrique](https://img4.hostingpics.net/pics/275278Designpatternfabrique.png)
+
+Cette classe est comparable à une usine ou l'on va créer tout les objets.
+
+
+#  
