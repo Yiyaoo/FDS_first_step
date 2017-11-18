@@ -15,9 +15,36 @@ public interface carFactory {
 
 ![Image Etape 2](https://img4.hostingpics.net/pics/2552094601.png)
 
+businessCarFactory.java
+```java
+public class businessCarFactory implements carFactory{
+	
+	public car getCar(){
+		return new businessCar();
+	}
+}
+```
+
+
 # Etape 3
 
-![Image Etape 3](https://img4.hostingpics.net/pics/954371237183495200081683688521437108332n.png)
+![Image Etape 3](https://img4.hostingpics.net/pics/5094513802.png)
+
+car.java
+```java
+public interface car {
+	public void gasUp();
+}
+```
+
+businessCar.java
+```java
+public class businessCar implements car{
+	public void gasUp() {
+        System.out.println("gas up !");
+    }
+}
+```
 
 # Etape 4
 
