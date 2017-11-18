@@ -56,9 +56,9 @@ public class businessCar implements car{
 
 # Etape 4
 
-Abstract Factory Pattern est basé sur le Pattern Factory Method, mais qui va jouer en deux ou plusiers classe ou objets.
+Abstract Factory Pattern est basé sur le Pattern Factory Method, mais celui-ci va pouvoir créer maintenant deux ou plusieurs objets différents.
 Donc dans cet exemple, dans le car factory, on a maintenant deux type de voitures.
-La classe concrète SportCarFactory, elle, implémente les méthodes dedans de CarFactory.
+La classe concrète SportCarFactory, elle, implémente les méthodes de CarFactory.
 
 ![Image Etape 4](https://img4.hostingpics.net/pics/976063820.png)
 
@@ -83,6 +83,8 @@ public class SportCarFactory implements CarFactory {
 ```
 # Etape 5
 
+Maintenant que l'on a deux types d'objets dans le carfactory, on doit donc créer deux interfaces, BenzCar et TeslaCar.
+
 ![Image Etape 5](https://img4.hostingpics.net/pics/787834811.png)
 
 BenzCar.java
@@ -98,6 +100,9 @@ public interface TeslaCar {
 }
 ```
 # Etape 6
+
+Notre fabrique concrète fabrique des voitures de sports, il faut donc créer des sous-classes de BenzCar et TeslaCar.  
+Notre fabrique SportCarFactory va regrouper les voitures de sport de ces deux marques.
 
 ![Image Etape 6](https://img4.hostingpics.net/pics/154823682.png)
 
@@ -118,6 +123,9 @@ public class TeslaSportCar implements TeslaCar {
 }
 ```
 # Etape 7
+
+Cependant, ces deux sociétés ne font pas que des voitures de sport, ils font notamment des voitures de business. 
+On crée une Fabrique de type BusinessCarFactory et les sous-classes de voiture de type business car, et de la même façon que pour sportcar, la fabrique nouvellement créée fabriquera les voitures de business de BenzCar et TeslaCar.
 
 ![Image Etape 7](https://img4.hostingpics.net/pics/372427443.png)
 
