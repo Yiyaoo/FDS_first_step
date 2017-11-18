@@ -31,7 +31,7 @@ Mais revenons maintenant au Pattern Abstract Factory
 
 # Principe
 
-Le motif de conception Abstract Factory (fabrique abstraite) permet de fournir une interface unique pour instancier des objets d'une même famille sans avoir à connaître les classes à instancier.
+Le design pattern Abstract Factory (fabrique abstraite) permet de fournir une interface unique pour instancier des objets d'une même famille sans avoir à connaître les classes à instancier.
 
 L'utilisation de ce motif est pertinente lorsque :
 
@@ -41,6 +41,8 @@ L'utilisation de ce motif est pertinente lorsque :
 Le principal avantage de ce motif de conception est d'isoler la création des objets retournés par la fabrique. L'utilisation d'une fabrique abstraite permet de facilement remplacer une fabrique par une autre selon les besoins.
 
 Le motif de conception fabrique abstraite peut être interprété et mis en oeuvre de différentes façons. Le diagramme UML ci-dessous propose une mise en oeuvre possible avec deux familles de deux produits.
+
+Schéma du Design Pattern Fabrique Abstraite
 
 ![Fabrique Abstraite](https://img4.hostingpics.net/pics/712545dp006.png)
 
@@ -60,11 +62,12 @@ Les classes que l'ont utilise ici sont :
 -[ ] 
 
 ?[Quand faut-il utiliser le Pattern Abstract Factory ?]
--[X] Quand une structure d'objet se compose de plusieurs objets avec une interface et que l'on veut créer des opérations sur ces objets
--[ ] Quand une structure d'objet change souvent et que l'on souhaite créer des opérations sur ces objets
+-[X] 
+-[ ] 
+-[ ] 
 
 ?[Quand il veux créer un objet, que fais le code client ]
--[ ] visiter
--[X] accepter
--[ ] visite
+-[ ] 
+-[X] 
+-[ ] 
 
