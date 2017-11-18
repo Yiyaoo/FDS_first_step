@@ -2,6 +2,8 @@
 
 ![Image Etape 1](https://img4.hostingpics.net/pics/954371237183495200081683688521437108332n.png)
 
+On crée tout d'abord une interface ou une classe abstraite,
+il y a une méthode getCar()  dedans pour retourner une voiture
 
 carFactory.java
 ```java
