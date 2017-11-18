@@ -1,6 +1,6 @@
 # Etape 1
 
-![Image Super Mario Bros](https://www.hostingpics.net/viewer.php?id=954371237183495200081683688521437108332n.png)
+![Image Super Mario Bros](https://img4.hostingpics.net/pics/954371237183495200081683688521437108332n.png)
 
 # Etape 2
 
