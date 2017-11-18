@@ -47,9 +47,24 @@ Le motif de conception fabrique abstraite peut être interprété et mis en oeuv
 Les classes que l'ont utilise ici sont :
 
  - IProduitFactory : interface pour les fabriques de création d'objets. Elle définit les méthodes nécessaires à la création des objets
- - ProduitFactory1 et ProduitFactory2 : fabriques qui réalisent la création des objets
+ - ProduitFactory1 et ProduitFactory2 : fabriques concrètes qui réalisent la création des objets
  - ProduitA et ProduitB : interfaces des deux familles de produits 
  - ProduitA1, ProduitA2, ProduitB1 et ProduitB2 : classes ou les deux produits des deux familles sont implémentées
 
 
+# Quiz
+
+?[Quelle est le rôle des fabriques concrètes ?]
+-[X] Implémenter les méthodes abstraites de l'interface Fabrique Abstraite
+-[ ] Faire jolie
+-[ ] 
+
+?[Quand faut-il utiliser le Pattern Abstract Factory ?]
+-[X] Quand une structure d'objet se compose de plusieurs objets avec une interface et que l'on veut créer des opérations sur ces objets
+-[ ] Quand une structure d'objet change souvent et que l'on souhaite créer des opérations sur ces objets
+
+?[Quand il veux créer un objet, que fais le code client ]
+-[ ] visiter
+-[X] accepter
+-[ ] visite
 
