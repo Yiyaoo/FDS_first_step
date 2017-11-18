@@ -1,9 +1,9 @@
 # Etape 1
 
-![Image Etape 1](https://img4.hostingpics.net/pics/954371237183495200081683688521437108332n.png)
-
 On crée tout d'abord une interface ou une classe abstraite,
 On y inclut une méthode getCar()  dedans pour retourner une voiture
+
+![Image Etape 1](https://img4.hostingpics.net/pics/954371237183495200081683688521437108332n.png)
 
 carFactory.java
 ```java
@@ -14,6 +14,8 @@ public interface carFactory {
 
 
 # Etape 2
+
+L'interface carFactory a une classe concrète: non allons l'appeler bussinessCarFactory et il implémente la méthode getCar() qui va aussi retourner une voiture concrète.
 
 ![Image Etape 2](https://img4.hostingpics.net/pics/2552094601.png)
 
