@@ -15,7 +15,7 @@ public interface carFactory {
 
 # Etape 2
 
-L'interface carFactory a une classe concrète: non allons l'appeler bussinessCarFactory et il implémente la méthode getCar() qui va aussi retourner une voiture concrète.
+L'interface carFactory a une classe concrète: nous allons l'appeler bussinessCarFactory et il implémente la méthode getCar() qui va aussi retourner une voiture concrète.
 
 ![Image Etape 2](https://img4.hostingpics.net/pics/2552094601.png)
 
