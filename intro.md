@@ -25,8 +25,9 @@ Son principe est simple: créer une classe qui sera dédier à la construction
 
 ![Fabrique](https://img4.hostingpics.net/pics/275278Designpatternfabrique.png)
 
-Cette classe est comparable à une usine ou l'on va centraliser la création d'objets
-Revenons Maintenant au Pattern Abstract Factory
+Cette classe est comparable à une usine ou l'on va centraliser la création d'objets.
+
+Mais revenons maintenant au Pattern Abstract Factory
 
 # Principe
 
