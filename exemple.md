@@ -32,6 +32,8 @@ public class businessCarFactory implements carFactory{
 
 # Etape 3
 
+Si le factory cherche une voiture, on a une interface ou une classe abstraite de type voiture, et il y a une class concrète de type bussiness car par rapport au classe mère
+
 ![Image Etape 3](https://img4.hostingpics.net/pics/5094513802.png)
 
 car.java
