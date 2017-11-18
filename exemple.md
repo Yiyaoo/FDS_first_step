@@ -56,6 +56,8 @@ public class businessCar implements car{
 
 # Etape 4
 
+Abstract Factory Pattern est basé sur le Factory Method Pattern,mais qui va jouer en deux ou plusiers classe ou objets, donc dans cet exemple, dans le car factory, on a maintenant deux type de voitures, il a aussi une classe concrète SportCarFactory, qui implémente le CarFactory et les méthodes dedans.
+
 ![Image Etape 4](https://img4.hostingpics.net/pics/976063820.png)
 
 CarFactory.java
