@@ -1,6 +1,8 @@
+Dans notre exemple, on va essayer de faire un système pour créer des voitures de plusieurs familles différentes(Sport, Business...) pour différentes sociétés.
+
 # Etape 1
 
-On crée tout d'abord une interface ou une classe abstraite,
+On crée tout d'abord une interface ou une classe abstraite carFactory,
 On y inclut une méthode getCar()  dedans pour retourner une voiture
 
 ![Image Etape 1](https://img4.hostingpics.net/pics/954371237183495200081683688521437108332n.png)
@@ -15,7 +17,7 @@ public interface carFactory {
 
 # Etape 2
 
-L'interface carFactory a une classe concrète: nous allons l'appeler bussinessCarFactory et il implémente la méthode getCar() qui va aussi retourner une voiture concrète.
+L'interface carFactory a une classe concrète: nous allons l'appeler businessCarFactory et il implémente la méthode getCar() qui va aussi retourner une voiture concrète.
 
 ![Image Etape 2](https://img4.hostingpics.net/pics/2552094601.png)
 
@@ -32,7 +34,7 @@ public class businessCarFactory implements carFactory{
 
 # Etape 3
 
-Si le factory cherche une voiture, on a une interface ou une classe abstraite de type voiture, et il y a une class concrète de type bussiness car par rapport au classe mère
+Bien entendu si l'on veut créer notre voiture, il nous faut une classe voiture, parceque si on sait pas ce que c'est ça va être compliqué d'utiliser l'usine. Mais nous on a une usine qui fabrique des voiture business, nous définissons donc la classe fille businessCar.
 
 ![Image Etape 3](https://img4.hostingpics.net/pics/5094513802.png)
 
