@@ -19,7 +19,7 @@ Pour comprendre le pattern d'Abstract Factory, il faut d'abord comprendre ce qu'
 
 # Une fabrique dites-vous?
 
-Ce qu'on appelle fabrique est en fait un emplacement de notre application qui est consacré à la création d'objet.
+Ce qu'on entend par fabrique est en fait un autre pattern dit Factory Method.
 
 Son principe est simple: créer une classe qui sera dédier à la construction 
 
