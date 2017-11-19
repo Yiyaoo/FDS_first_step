@@ -67,7 +67,7 @@ Par contre, A1 et B2 ne peuvent pas fonctionner ensemble car ils n'appartiennent
 -[ ] aux patterns de structuration
 -[ ] aux patterns comportementaux 
 
-?[Une Fabrique concrète ?]
+?[Une Fabrique concrète ]
 -[X] implémente les méthodes d'une fabrique Abstraite
 -[ ] ne réalise pas la création d'objet
 -[ ] déclare les produits à implémenter
