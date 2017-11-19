@@ -159,7 +159,7 @@ public class BusinessCarFactory implements CarFactory {
 ```
 # Quiz
 
-?[A quel famille appartient le pattern Abstract Factory?]
+?[ Quel est la différence entre le factory method pattern et l'abstract factory pattern?]
 -[X] Dans le cas du Factory Method, new est déporté dans une méthode dédiée, un seul type d’objet est retourné à la fois et dans le cas de Abstract Factory les familles de produit sont liés fonctionnellement, plusieurs fabriques, plusieurs types d’objets sont retournés par chaque fabrique
 -[ ] Dans le cas du Abstract Factory, new est déporté dans une méthode dédiée, un seul type d’objet est retourné à la fois et dans le cas de Factory Method les familles de produit sont liés fonctionnellement, plusieurs fabriques, plusieurs types d’objets sont retournés par chaque fabrique
 -[ ] C'est la même chose
