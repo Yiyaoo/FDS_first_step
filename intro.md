@@ -51,7 +51,7 @@ Les classes que l'ont utilise ici sont :
 
  - AbstractFactory : interface pour les fabriques de création d'objets. Elle définit les méthodes nécessaires à la création des objets
  - ConcreteFactory1 et ConcreteFactory2 : fabriques concrètes qui réalisent la création des objets
- - ProductA et ProductB : interfaces des deux familles de produits 
+ - AbstractProductA et AbstractProductB : interfaces des deux familles de produits 
  - ProductA1, ProductA2, ProductB1 et ProductB2 : classes ou les deux produits des deux familles sont implémentées
 
 
@@ -62,8 +62,8 @@ Les classes que l'ont utilise ici sont :
 -[ ] aux patterns de structuration
 -[ ] aux patterns comportementaux 
 
-?[Une Fabrique Concrète ?]
--[X] implémente des méthodes d'une fabrique Abstraite
+?[Une Fabrique concrète ?]
+-[X] implémente les méthodes d'une fabrique Abstraite
 -[ ] ne réalise pas la création d'objet
 -[ ] déclare les produits à implémenter
 
