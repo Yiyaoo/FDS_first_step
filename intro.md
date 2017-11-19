@@ -56,18 +56,19 @@ Les classes que l'ont utilise ici sont :
 
 # Quiz
 
-?[Quelle est le rôle des fabriques concrètes ?]
--[X] Implémenter les méthodes abstraites de l'interface Fabrique Abstraite
--[ ] Faire jolie
--[ ] 
+?[A quel famille appartient le pattern Abstract Factory  ?]
+-[X] aux patterns de création
+-[ ] aux patterns de structuration
+-[ ] aux patterns comportementaux 
 
-?[Quand faut-il utiliser le Pattern Abstract Factory ?]
+?[Quel est l'intérêt d'utiliser le Pattern Abstract Factory ?]
 -[X] 
 -[ ] 
 -[ ] 
 
-?[Quand il veux créer un objet, que fais le code client ]
--[ ] 
--[X] 
--[ ] 
+?[Un client a besoin de savoir quel usine fabrique son objet]
+-[ ] Vrai
+-[X] Faux
+
+
 
