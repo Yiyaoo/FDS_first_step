@@ -49,10 +49,10 @@ Schéma du Design Pattern Fabrique Abstraite
 
 Les classes que l'ont utilise ici sont :
 
- - IProduitFactory : interface pour les fabriques de création d'objets. Elle définit les méthodes nécessaires à la création des objets
- - ProduitFactory1 et ProduitFactory2 : fabriques concrètes qui réalisent la création des objets
- - ProduitA et ProduitB : interfaces des deux familles de produits 
- - ProduitA1, ProduitA2, ProduitB1 et ProduitB2 : classes ou les deux produits des deux familles sont implémentées
+ - AbstractFactory : interface pour les fabriques de création d'objets. Elle définit les méthodes nécessaires à la création des objets
+ - ConcreteFactory1 et ConcreteFactory2 : fabriques concrètes qui réalisent la création des objets
+ - ProductA et ProductB : interfaces des deux familles de produits 
+ - ProductA1, ProductA2, ProductB1 et ProductB2 : classes ou les deux produits des deux familles sont implémentées
 
 
 # Quiz
