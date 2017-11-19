@@ -44,8 +44,8 @@ Le motif de conception fabrique abstraite peut être interprété et mis en oeuv
 
 Schéma du Design Pattern Fabrique Abstraite
 
-![Fabrique Abstraite](https://img4.hostingpics.net/pics/712545dp006.png)
-![Fabrique Abstraite1](https://img4.hostingpics.net/pics/134636creationabstractfactory.png)
+
+![Fabrique Abstraite](https://img4.hostingpics.net/pics/134636creationabstractfactory.png)
 
 Les classes que l'ont utilise ici sont :
 
@@ -62,12 +62,12 @@ Les classes que l'ont utilise ici sont :
 -[ ] aux patterns de structuration
 -[ ] aux patterns comportementaux 
 
-?[Quel est l'intérêt d'utiliser le Pattern Abstract Factory ?]
--[X] 
--[ ] 
--[ ] 
+?[Une Fabrique Concrète ?]
+-[X] implémente des méthodes d'une fabrique Abstraite
+-[ ] ne réalise pas la création d'objet
+-[ ] déclare les produits à implémenter
 
-?[Un client a besoin de savoir quel usine fabrique son objet]
+?[Un client a besoin de savoir quel fabrique concrete conçoit son objet.]
 -[ ] Vrai
 -[X] Faux
 
