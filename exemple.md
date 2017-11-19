@@ -38,6 +38,8 @@ Bien entendu si l'on veut créer notre voiture, il nous faut une classe voiture,
 
 ![Image Etape 3](https://img4.hostingpics.net/pics/5094513802.png)
 
+![Image Etape 3 Lien](https://img4.hostingpics.net/pics/6423973802.png)
+
 car.java
 ```java
 public interface car {
