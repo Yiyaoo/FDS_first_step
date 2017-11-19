@@ -157,6 +157,25 @@ public class BusinessCarFactory implements CarFactory {
     }
 }
 ```
-# Quizz
+# Quiz
+
+?[A quel famille appartient le pattern Abstract Factory  ?]
+-[X] aux patterns de création
+-[ ] aux patterns de structuration
+-[ ] aux patterns comportementaux 
+
+![Image Question 2](https://img4.hostingpics.net/pics/870935rtz.png)
+?[ Ce diagramme utilise quel design pattern? ?]
+-[ ] Abstrat Factory Pattern
+-[X] Factory Method Pattern
+-[ ] Je sais pas
+
+?[Un client a besoin de savoir quel fabrique concrete conçoit son objet.]
+-[ ] Abstrat Factory Pattern
+-[X] Factory Method Pattern
+-[ ] Aucun des deux
+
+
+
 
 Merci d'avoir suivi!
