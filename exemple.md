@@ -159,18 +159,19 @@ public class BusinessCarFactory implements CarFactory {
 ```
 # Quiz
 
-?[A quel famille appartient le pattern Abstract Factory  ?]
+?[A quel famille appartient le pattern Abstract Factory?]
 -[X] Dans le cas du Factory Method, new est déporté dans une méthode dédiée, un seul type d’objet est retourné à la fois et dans le cas de Abstract Factory les familles de produit sont liés fonctionnellement, plusieurs fabriques, plusieurs types d’objets sont retournés par chaque fabrique
 -[ ] Dans le cas du Abstract Factory, new est déporté dans une méthode dédiée, un seul type d’objet est retourné à la fois et dans le cas de Factory Method les familles de produit sont liés fonctionnellement, plusieurs fabriques, plusieurs types d’objets sont retournés par chaque fabrique
--[ ] aux patterns comportementaux 
+-[ ] C'est la même chose
+-[X] Les noms sont différents
 
 ![Image Question 2](https://img4.hostingpics.net/pics/870935rtz.png)
-?[ Ce diagramme utilise quel design pattern? ?]
+?[ Ce diagramme utilise quel design pattern? ]
 -[ ] Abstract Factory Pattern
 -[X] Factory Method Pattern
 -[ ] Je sais pas
-
-?[Un client a besoin de savoir quel fabrique concrete conçoit son objet.]
+![Image Question 3](https://img4.hostingpics.net/pics/419360abstractfactory.png)
+?[Ce diagramme utilise quel design pattern?]
 -[ ] Aucun des deux
 -[ ] Factory Method Pattern
 -[X] Abstrat Factory Pattern
