@@ -1,6 +1,6 @@
 title: Presentation_Design_Pattern_Abstract_Factory
 plan:
-- title: Introduction
+- title: Pattern Abstract Factory
   statement: intro.md
 - title: Exemple d'utilisation
   statement: exemple.md
