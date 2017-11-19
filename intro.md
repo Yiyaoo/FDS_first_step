@@ -43,7 +43,7 @@ L'utilisation d'une fabrique abstraite permet de facilement remplacer une fabriq
 Le patron de conception fabrique abstraite peut être interprété et mis en oeuvre de différentes façons.
 
 
-# Schéma du Design Pattern Fabrique Abstraite
+# Diagramme
 
 Ce diagramme propose une mise en oeuvre possible avec deux familles de deux produits.
 
