@@ -33,17 +33,23 @@ Mais revenons maintenant au Pattern Abstract Factory
 
 Le design pattern Abstract Factory (fabrique abstraite) permet de fournir une interface unique pour instancier des objets d'une même famille sans avoir à connaître les classes à instancier.
 
-L'utilisation de ce motif est pertinente lorsque :
+Le but de ce patron de conception est d'isoler la création des objets de leur utilisation. L'intérêt est ainsi d'ajouter de nouveaux objets dérivés sans modifier le code qui utilise l'objet de base.
+
+L'utilisation d'une fabrique abstraite permet de facilement remplacer une fabrique par une autre selon les besoins.
+
+
+L'utilisation de ce pattern est pertinente lorsque :
 
 - Le système doit être indépendant de la création des objets qu'il utilise
 - Le système doit être capable de créer des objets d'une même famille
 
-Le principal avantage de ce motif de conception est d'isoler la création des objets retournés par la fabrique. L'utilisation d'une fabrique abstraite permet de facilement remplacer une fabrique par une autre selon les besoins.
 
-Le motif de conception fabrique abstraite peut être interprété et mis en oeuvre de différentes façons. Le diagramme UML ci-dessous propose une mise en oeuvre possible avec deux familles de deux produits.
+Le patron de conception fabrique abstraite peut être interprété et mis en oeuvre de différentes façons.
+
 
 Schéma du Design Pattern Fabrique Abstraite
 
+Ce diagramme propose une mise en oeuvre possible avec deux familles de deux produits.
 
 ![Fabrique Abstraite](https://img4.hostingpics.net/pics/134636creationabstractfactory.png)
 
@@ -53,6 +59,7 @@ Les classes que l'ont utilise ici sont :
  - ConcreteFactory1 et ConcreteFactory2 : fabriques concrètes qui réalisent la création des objets
  - AbstractProductA et AbstractProductB : interfaces des deux familles de produits 
  - ProductA1, ProductA2, ProductB1 et ProductB2 : classes ou les deux produits des deux familles sont implémentées
+ - Le client, quant à lui utilise uniquement la fabrique abstraite pour créer ses objets
 
 
 # Quiz
