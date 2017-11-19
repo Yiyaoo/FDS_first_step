@@ -11,7 +11,7 @@ Il existe 3 principaux types de  design pattern :
 - les patterns de structuration
 - les patterns comportementaux 
 
-Dans le cas de notre design pattern Abstract Factory, il appartient à la famille des patterns de créations
+Dans le cas de notre design pattern Abstract Factory, il appartient à la famille des patterns de création
 
 ---
 
