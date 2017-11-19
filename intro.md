@@ -45,6 +45,7 @@ Le motif de conception fabrique abstraite peut être interprété et mis en oeuv
 Schéma du Design Pattern Fabrique Abstraite
 
 ![Fabrique Abstraite](https://img4.hostingpics.net/pics/712545dp006.png)
+![Fabrique Abstraite](https://img4.hostingpics.net/pics/134636creationabstractfactory.png)
 
 Les classes que l'ont utilise ici sont :
 
