@@ -128,7 +128,7 @@ Cependant, ces deux sociétés ne font pas que des voitures de sport, ils font n
 On crée une Fabrique de type BusinessCarFactory et les sous-classes de voiture de type business car, et de la même façon que pour sportcar, la fabrique nouvellement créée fabriquera les voitures de business de BenzCar et TeslaCar.
 
 ![Image Etape 7](https://img4.hostingpics.net/pics/372427443.png)
-
+![Image Etape 7 Lien](https://img4.hostingpics.net/pics/67805123758251520479314988404805181304n.png)
 BenzBusinessCar.java
 ```java
 public class BenzBusinessCar implements BenzCar{
