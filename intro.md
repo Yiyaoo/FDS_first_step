@@ -39,7 +39,6 @@ Le but de ce patron de conception est d'isoler la création des objets de leur u
 
 L'utilisation d'une fabrique abstraite permet de facilement remplacer une fabrique par une autre selon les besoins.
 
-
 Le patron de conception fabrique abstraite peut être interprété et mis en oeuvre de différentes façons.
 
 
@@ -57,8 +56,10 @@ Les classes que l'ont utilise ici sont :
  - ProductA1, ProductA2, ProductB1 et ProductB2 : classes ou les deux produits des deux familles sont implémentées
  - Le client, quant à lui utilise uniquement la fabrique abstraite pour créer ses objets
 
-Les produits appartiennent à une famille. Sur ce schéma le produit A1 et le produit B1 appartiennent à la même famille et sont donc destinés à collaborer ensemble.
-
+Les produits appartiennent à une famille. Sur ce schéma le produit A1 et le produit B1 appartiennent à la même famille et sont donc destinés à collaborer ensemble.Le produit A2 et le produit B2 sont également conçus pour collaborer ensemble. 
+Par contre, A1 et B2 ne peuvent pas fonctionner ensemble car ils n'appartiennent pas à la même famille. 
+ Il est donc important d’instancier des produits qui sont compatibles (autrement dit, qui appartiennent à la même famille) et c'est tout l'intérêt des fabriques abstraites.
+ 
 # Quiz
 
 ?[A quel famille appartient le pattern Abstract Factory  ?]
