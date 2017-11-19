@@ -171,8 +171,8 @@ public class BusinessCarFactory implements CarFactory {
 -[ ] Je sais pas
 
 ?[Un client a besoin de savoir quel fabrique concrete conçoit son objet.]
--[ ] Abstrat Factory Pattern
--[X] Factory Method Pattern
+-[X] Abstrat Factory Pattern
+-[ ] Factory Method Pattern
 -[ ] Aucun des deux
 
 
